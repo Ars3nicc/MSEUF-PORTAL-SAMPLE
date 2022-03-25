@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+nav{
+	background-color: #650808;
+	display: inline-block;
+}
+
+header{
+	display: inline-block;
+	padding: 20px;
+}
+header h2{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+header h3{
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+th{
+	color: #650808;
+	border-bottom: 2px solid #650808;
+}
+th h3{
+	font-weight: bold;
+}
+tr td{
+	font-size: 20px;
+	color: #650808 ;
+}
+button{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: left;
+	color: white;
+	background: #650808;
+	border: none;
+}
+
+button:hover{
+	background-color: #f52106;
+}
+footer{
+	font-size: 13px;
+	text-align: right;
+	padding: 30px 50px;
+	color: white;
+	background-color: #650808;
+}
+
+
+.notice{
+	background-color: #f9faeb;
+	border-radius: 5px;
+	padding: 4px;
+	font-weight: bold;
+	color: #131212;
+	font-size: 15px;
+}
+.thnotice{
+	color: #131212;
+	border-bottom: 2px solid #131212;
+}
+.enrollment{
+	font-size: 15px;
+	color: #131212;
+}
+.right{
+	text-align: left;
+	font-size: 20px;
+}
+.margintop{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #650808;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+	text-decoration: none;
+	color: #f52106;
+}
+
+.floatright{
+	vertical-align: middle;
+	float: right;
+	color: white;
+}
+.label{
+	display: block;
+	margin-top: 6px;
+}
+.adjustright{
+	margin-right: 10%;
+}
+.bookmseuf{
+	color: #650808;
+	text-decoration: none;
+}
+.bookmseuf:hover{
+	color: #f52106;
+	text-decoration: none;
+}
